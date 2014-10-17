@@ -347,14 +347,14 @@ textarea .h4-section-title {
 }
 
 .section-content.section-px {
-    background-image: url(../images/blurred1.jpg);
+    background-image: url(../assets/blurred1.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     border: none;
 }
 
 .section-content.section-px.stones-bg {
-    background-image: url(../images/placeholders/stones.jpg);
+    background-image: url(../assets/stones.jpg);
 }
 
 body .section-content.section-image, html .section-content.section-image,
@@ -369,7 +369,7 @@ textarea .section-content.section-image {
 }
 
 .section-content.section-image:after {
-    background-image: url(../images/placeholders/section-content-bg1.jpg);
+    background-image: url(../assets/section-content-bg1.jpg);
     background-attachment: fixed;
     -webkit-background-size: cover !important;
     content: "";
@@ -383,7 +383,7 @@ textarea .section-content.section-image {
 }
 
 .section-content.section-image.bg2:after {
-    background-image: url(../images/placeholders/section-content-bg2.jpg);
+    background-image: url(../assets/section-content-bg2.jpg);
 }
 
 .section-content.bottom-body {
@@ -503,7 +503,7 @@ textarea .section-content.section-image {
     margin: 0px 20px 20px 0px;
 }
 .title-block .title-seperator {
-    background: url("../images/divider-stripe5.png");
+    background: url("../assets/divider-stripe5.png");
     height: 5px;
     overflow: hidden;
     margin-top: 8px;
@@ -776,7 +776,7 @@ textarea .white-text .feature-details a:hover {
 /* Cols */
 .col-with-separator {
     background-repeat: no-repeat;
-    background-image: url(../images/col-sep.png);
+    background-image: url(../assets/col-sep.png);
     background-size: auto 100%;
     height: 630px;
     padding: 0 0 0 40px;
@@ -787,7 +787,7 @@ textarea .white-text .feature-details a:hover {
 
 .separator {
     background: transparent;
-    background-image: url(../images/sidebar_shadow_body.png);
+    background-image: url(../assets/sidebar_shadow_body.png);
     background-repeat: repeat-y;
     padding: 0 0 0 30px;
     position: absolute;
@@ -802,7 +802,7 @@ textarea .white-text .feature-details a:hover {
     position: absolute;
     top: -41px;
     left: 0;
-    background-image: url(../images/sidebar_shadow_top.png);
+    background-image: url(../assets/sidebar_shadow_top.png);
     background-repeat: no-repeat;
     width: 24px;
     height: 41px;
@@ -813,7 +813,7 @@ textarea .white-text .feature-details a:hover {
     position: absolute;
     bottom: -55px;
     left: 0;
-    background-image: url(../images/sidebar_shadow_bottom.png);
+    background-image: url(../assets/sidebar_shadow_bottom.png);
     background-repeat: no-repeat;
     background-position: 0 -69px;
     width: 24px;
@@ -823,7 +823,7 @@ textarea .white-text .feature-details a:hover {
 
 .separator.separator-right {
     background: transparent;
-    background-image: url(../images/sep_shadow_body2.png);
+    background-image: url(../assets/sep_shadow_body2.png);
     background-repeat: repeat-y;
     padding: 0 0 0 30px;
     position: absolute;
@@ -835,14 +835,14 @@ textarea .white-text .feature-details a:hover {
 .separator.separator-right:after {
     left: auto;
     right: 6px;
-    background-image: url(../images/sep_shadow_top2.png);
+    background-image: url(../assets/sep_shadow_top2.png);
     background-repeat: no-repeat;
 }
 
 .separator.separator-right:before {
     left: auto;
     right: 6px;
-    background-image: url(../images/sep_shadow_bottom2.png);
+    background-image: url(../assets/sep_shadow_bottom2.png);
     background-repeat: no-repeat;
 }
 
@@ -1208,7 +1208,7 @@ Accordion
 }
 
 .accordion .open-icon {
-    background: no-repeat -26px -165px url("../images/sprites.png");
+    background: no-repeat -26px -165px url("../assets/sprites.png");
     width: 25px;
     height: 25px;
     cursor: pointer;
@@ -1216,7 +1216,7 @@ Accordion
 
 
 .accordion .close-icon {
-    background: no-repeat -26px -215px url("../images/sprites.png");
+    background: no-repeat -26px -215px url("../assets/sprites.png");
     width: 25px;
     height: 25px;
     top: 10px;
@@ -2072,7 +2072,7 @@ Callout box
 }
 
 .callout-box.image-box {
-    background-image: url("../images/call-out-box-bg.JPG");
+    background-image: url("../assets/call-out-box-bg.JPG");
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -2822,42 +2822,42 @@ ul.icon-content-list-container li.icon-content-single .small .content-box-text {
 Custom Blog Icons
 ****************************/
 .post-type-sound {
-    background: no-repeat -1px -2px url("../images/sprites.png");
+    background: no-repeat -1px -2px url("../assets/sprites.png");
     width: 15px;
     height: 11px;
 }
 
 
 .post-type-video-icon {
-    background: no-repeat -5px -64px url("../images/sprites.png");
+    background: no-repeat -5px -64px url("../assets/sprites.png");
     width: 7px;
     height: 13px;
 }
 
 
 .post-type-post-icon {
-    background: no-repeat 0 -132px url("../images/sprites.png");
+    background: no-repeat 0 -132px url("../assets/sprites.png");
     width: 16px;
     height: 16px;
 }
 
 
 .post-type-link-icon {
-    background: no-repeat 0 -168px url("../images/sprites.png");
+    background: no-repeat 0 -168px url("../assets/sprites.png");
     width: 18px;
     height: 17px;
 }
 
 
 .post-type-quote-icon {
-    background: no-repeat 0 -212px url("../images/sprites.png");
+    background: no-repeat 0 -212px url("../assets/sprites.png");
     width: 16px;
     height: 16px;
 }
 
 
 .post-type-gallery-icon {
-    background: no-repeat 0 -32px url("../images/sprites.png");
+    background: no-repeat 0 -32px url("../assets/sprites.png");
     width: 17px;
     height: 12px;
 }
@@ -2886,7 +2886,7 @@ Cycle Slider ( Home Page )
 .slider-fixed-frame .home-bullets span {
     cursor: pointer;
     position: relative;
-    background: url(../images/assets/bullets3.png) no-repeat top left;
+    background: url(../assets/bullets3.png) no-repeat top left;
     width: 12px;
     height: 12px;
     margin-right: 0px;
@@ -2913,7 +2913,7 @@ Home elements dividers
 }
 
 .divider.divider-shadow {
-    background-image: url("../images/divider-shadow.png");
+    background-image: url("../assets/divider-shadow.png");
     border-bottom: none;
     margin: 40px 0 20px 0;
     height: 20px;
@@ -2923,35 +2923,35 @@ Home elements dividers
 
 
 .divider.stripe-1 {
-    background-image: url("../images/divider-stripe1.png");
+    background-image: url("../assets/divider-stripe1.png");
     border-bottom: none;
     height: 10px;
 }
 
 
 .divider.stripe-2 {
-    background-image: url("../images/divider-stripe2.png");
+    background-image: url("../assets/divider-stripe2.png");
     border-bottom: none;
     height: 10px;
 }
 
 
 .divider.stripe-3 {
-    background-image: url("../images/divider-stripe3.png");
+    background-image: url("../assets/divider-stripe3.png");
     border-bottom: none;
     height: 10px;
 }
 
 
 .divider.stripe-4 {
-    background-image: url("../images/divider-stripe4.png");
+    background-image: url("../assets/divider-stripe4.png");
     border-bottom: none;
     height: 10px;
 }
 
 
 .divider.stripe-5 {
-    background-image: url("../images/divider-stripe5.png");
+    background-image: url("../assets/divider-stripe5.png");
     border-bottom: none;
     height: 10px;
 }
@@ -3111,7 +3111,7 @@ Footer
     position: absolute;
     left: -25px;
     top: 5px;
-    background: no-repeat -98px -1px url("../images/sprites.png");
+    background: no-repeat -98px -1px url("../assets/sprites.png");
     width: 16px;
     height: 13px;
 }
@@ -4634,7 +4634,7 @@ Revolution Slider Fixed Container
 
 .rev-slider-fixed div.tp-leftarrow,
 .rev-slider-full div.tp-leftarrow {
-    background: no-repeat 17px center url("../images/assets/arrow_left.png");
+    background: no-repeat 17px center url("../assets/arrow_left.png");
     width: 50px;
     height: 50px;
     background-color: black;
@@ -4652,7 +4652,7 @@ Revolution Slider Fixed Container
 
 .rev-slider-fixed div.tp-rightarrow,
 .rev-slider-full div.tp-rightarrow {
-    background: no-repeat 20px center url("../images/assets/arrow_right.png");
+    background: no-repeat 20px center url("../assets/arrow_right.png");
     width: 50px;
     height: 50px;
     background-color: black;
@@ -4675,7 +4675,7 @@ Revolution Slider Fixed Container
     -moz-transition: all 200ms ease-in-out;
     -o-transition: all 200ms ease-in-out;
     transition: all 200ms ease-in-out;
-    background: no-repeat top left url("../images/assets/bullets3.png");
+    background: no-repeat top left url("../assets/bullets3.png");
     width: 12px;
     height: 12px;
 }
@@ -4784,7 +4784,7 @@ Search Box
     border: 0;
     width: 28px;
     text-align: center;
-    background: no-repeat -55px 0 url("../images/sprites.png");
+    background: no-repeat -55px 0 url("../assets/sprites.png");
     width: 27px;
     height: 17px;
 }
@@ -5391,7 +5391,7 @@ Slider fixed container
 Social icons
 ****************************/
 .social-icons .aim-icon {
-    background-image: url("../images/social-media/social-media-aim.png");
+    background-image: url("../assets/social-media-aim.png");
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -5403,7 +5403,7 @@ Social icons
 }
 
 .social-icons .behance-icon {
-    background-image: url("../images/social-media/social-media-behance.png");
+    background-image: url("../assets/social-media-behance.png");
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -5415,7 +5415,7 @@ Social icons
 }
 
 .social-icons .blogger-icon {
-    background-image: url("../images/social-media/social-media-blogger.png");
+    background-image: url("../assets/social-media-blogger.png");
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -5427,7 +5427,7 @@ Social icons
 }
 
 .social-icons .devianart-icon {
-    background-image: url("../images/social-media/social-media-devianArt.png");
+    background-image: url("../assets/social-media-devianArt.png");
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -5439,7 +5439,7 @@ Social icons
 }
 
 .social-icons .digg-icon {
-    background-image: url("../images/social-media/social-media-digg.png");
+    background-image: url("../assets/social-media-digg.png");
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -5451,7 +5451,7 @@ Social icons
 }
 
 .social-icons .dribble-icon {
-    background-image: url("../images/social-media/social-media-dribble.png");
+    background-image: url("../assets/social-media-dribble.png");
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -5463,7 +5463,7 @@ Social icons
 }
 
 .social-icons .ember-icon {
-    background-image: url("../images/social-media/social-media-ember.png");
+    background-image: url("../assets/social-media-ember.png");
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -5475,7 +5475,7 @@ Social icons
 }
 
 .social-icons .evernote-icon {
-    background-image: url("../images/social-media/social-media-everNote.png");
+    background-image: url("../assets/social-media-everNote.png");
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -5487,7 +5487,7 @@ Social icons
 }
 
 .social-icons .flickr-icon {
-    background-image: url("../images/social-media/social-media-flickr.png");
+    background-image: url("../assets/social-media-flickr.png");
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -5499,7 +5499,7 @@ Social icons
 }
 
 .social-icons .forrst-icon {
-    background-image: url("../images/social-media/social-media-forrst.png");
+    background-image: url("../assets/social-media-forrst.png");
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -5511,7 +5511,7 @@ Social icons
 }
 
 .social-icons .googleplus-icon {
-    background-image: url("../images/social-media/social-media-googlePlus.png");
+    background-image: url("../assets/social-media-googlePlus.png");
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -5523,7 +5523,7 @@ Social icons
 }
 
 .social-icons .instagram-icon {
-    background-image: url("../images/social-media/social-media-instagram.png");
+    background-image: url("../assets/social-media-instagram.png");
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -5535,7 +5535,7 @@ Social icons
 }
 
 .social-icons .lastfm-icon {
-    background-image: url("../images/social-media/social-media-lastFm.png");
+    background-image: url("../assets/social-media-lastFm.png");
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -5547,7 +5547,7 @@ Social icons
 }
 
 .social-icons .linkedin-icon {
-    background-image: url("../images/social-media/social-media-linkedIn.png");
+    background-image: url("../assets/social-media-linkedIn.png");
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -5559,7 +5559,7 @@ Social icons
 }
 
 .social-icons .myspace-icon {
-    background-image: url("../images/social-media/social-media-myspace.png");
+    background-image: url("../assets/social-media-myspace.png");
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -5571,7 +5571,7 @@ Social icons
 }
 
 .social-icons .paypal-icon {
-    background-image: url("../images/social-media/social-media-paypal.png");
+    background-image: url("../assets/social-media-paypal.png");
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -5583,7 +5583,7 @@ Social icons
 }
 
 .social-icons .reddit-icon {
-    background-image: url("../images/social-media/social-media-reddit.png");
+    background-image: url("../assets/social-media-reddit.png");
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -5595,7 +5595,7 @@ Social icons
 }
 
 .social-icons .sharethis-icon {
-    background-image: url("../images/social-media/social-media-shareThis.png");
+    background-image: url("../assets/social-media-shareThis.png");
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -5607,7 +5607,7 @@ Social icons
 }
 
 .social-icons .wordpress-icon {
-    background-image: url("../images/social-media/social-media-wordpress.png");
+    background-image: url("../assets/social-media-wordpress.png");
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -5619,7 +5619,7 @@ Social icons
 }
 
 .social-icons .yahoo-icon {
-    background-image: url("../images/social-media/social-media-yahoo.png");
+    background-image: url("../assets/social-media-yahoo.png");
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -5631,7 +5631,7 @@ Social icons
 }
 
 .social-icons .zerply-icon {
-    background-image: url("../images/social-media/social-media-zerply.png");
+    background-image: url("../assets/social-media-zerply.png");
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -5643,7 +5643,7 @@ Social icons
 }
 
 .social-icons .twitter-icon {
-    background-image: url("../images/social-media/social-media-twitter.png");
+    background-image: url("../assets/social-media-twitter.png");
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -5655,7 +5655,7 @@ Social icons
 }
 
 .social-icons .facebook-icon {
-    background-image: url("../images/social-media/social-media-facebook.png");
+    background-image: url("../assets/social-media-facebook.png");
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -5667,7 +5667,7 @@ Social icons
 }
 
 .social-icons .youtube-icon {
-    background-image: url("../images/social-media/social-media-youtube.png");
+    background-image: url("../assets/social-media-youtube.png");
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -5679,7 +5679,7 @@ Social icons
 }
 
 .social-icons .rss-icon {
-    background-image: url("../images/social-media/social-media-rss.png");
+    background-image: url("../assets/social-media-rss.png");
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -5691,7 +5691,7 @@ Social icons
 }
 
 .social-icons .vimeo-icon {
-    background-image: url("../images/social-media/social-media-vimeo.png");
+    background-image: url("../assets/social-media-vimeo.png");
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -5703,7 +5703,7 @@ Social icons
 }
 
 .social-icons .skype-icon {
-    background-image: url("../images/social-media/social-media-skype.png");
+    background-image: url("../assets/social-media-skype.png");
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -5715,7 +5715,7 @@ Social icons
 }
 
 .social-icons .mail-icon {
-    background-image: url("../images/social-media/social-media-mail.png");
+    background-image: url("../assets/social-media-mail.png");
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -5727,7 +5727,7 @@ Social icons
 }
 
 .social-icons .apple-icon {
-    background-image: url("../images/social-media/social-media-apple.png");
+    background-image: url("../assets/social-media-apple.png");
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -5739,7 +5739,7 @@ Social icons
 }
 
 .social-icons .pininterest-icon {
-    background-image: url("../images/social-media/social-media-pininterest.png");
+    background-image: url("../assets/social-media-pininterest.png");
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -5751,7 +5751,7 @@ Social icons
 }
 
 .social-icons .tumblr-icon {
-    background-image: url("../images/social-media/social-media-tumblr.png");
+    background-image: url("../assets/social-media-tumblr.png");
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -5763,7 +5763,7 @@ Social icons
 }
 
 .social-icons .soundcloud-icon {
-    background-image: url("../images/social-media/social-media-soundCloud.png");
+    background-image: url("../assets/social-media-soundCloud.png");
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -5775,7 +5775,7 @@ Social icons
 }
 
 .social-icons .dropbox-icon {
-    background-image: url("../images/social-media/social-media-dropBox.png");
+    background-image: url("../assets/social-media-dropBox.png");
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -5855,22 +5855,22 @@ Social icons
 }
 
 .share-facebook {
-    background-image: url("../images/social-media/share-facebook.png");
+    background-image: url("../assets/share-facebook.png");
 }
 
 
 .share-twitter {
-    background-image: url("../images/social-media/share-twitter.png");
+    background-image: url("../assets/share-twitter.png");
 }
 
 
 .share-googleplus {
-    background-image: url("../images/social-media/share-googlePlus.png");
+    background-image: url("../assets/share-googlePlus.png");
 }
 
 
 .share-mail {
-    background-image: url("../images/social-media/share-mail.png");
+    background-image: url("../assets/share-mail.png");
 }
 
 
