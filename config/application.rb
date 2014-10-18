@@ -66,6 +66,6 @@ module Ws
     config.assets.version = '1.0'
     
     config.assets.paths << Rails.root.join('vendor', 'assets', 'components', 'fonts')
-    config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
+    config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif .svg .eot .woff .ttf)
   end
 end

@@ -12,5 +12,6 @@
  *= require refinery/theme
  *= require_self
 //= require bootstrap
- *= require_tree ../../../vendor/assets/stylesheets
+//= require_tree ../../../vendor/assets/stylesheets
+ *= require font-awesome
  */
