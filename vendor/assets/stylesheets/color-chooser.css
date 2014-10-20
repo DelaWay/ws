@@ -575,6 +575,27 @@ Skin chooser
     background-size: 100%;
 }
 
+.bg-sky {
+    background-image: url(../assets/sky.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: 100%;
+}
+
+.bg-sky_light {
+    background-image: url(../assets/sky_light.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: 100%;
+}
+
+.bg-sky_medium {
+    background-image: url(../assets/sky_medium.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: 100%;
+}
+
 @media (max-width: 959px) {
     #skin-chooser-container {
         display: none;
