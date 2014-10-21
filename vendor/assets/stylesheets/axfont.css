@@ -4,11 +4,11 @@
 
 @font-face {
     font-family: "axfont";
-    src:url("../assets/axfont.eot");
-    src:url("../assets/axfont.eot?#iefix") format("embedded-opentype"),
-        url("../assets/axfont.ttf") format("truetype"),
-        url("../assets/axfont.svg#axfont") format("svg"),
-        url("../assets/axfont.woff") format("woff");
+    src:url("/assets/axfont.eot");
+    src:url("/assets/axfont.eot?#iefix") format("embedded-opentype"),
+        url("/assets/axfont.ttf") format("truetype"),
+        url("/assets/axfont.svg#axfont") format("svg"),
+        url("/assets/axfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }

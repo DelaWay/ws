@@ -19,7 +19,7 @@
 }
 
 .lt-ie9 .tags a:hover:after {
-    background: no-repeat -62px -25px url("../assets/sprites.png");
+    background: no-repeat -62px -25px url("/assets/sprites.png");
     width: 24px;
     height: 25px;
 }
